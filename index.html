@@ -47,12 +47,12 @@
         </div>
     </nav>
     <form class="d-flex" role="search">
-        <input id = "city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-        <button class="btn btn-outline-success" type="submit" id = "submit" >Search</button>
+        <input id="city" class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+        <button class="btn btn-outline-success" type="submit" id="submit">Search</button>
     </form>
 
     <div class="contner">
-        <h1 class="mt-4 text-center">Weather for <span id="cityname"></span> </h1>
+        <h1 class="mt-4 text-center">Weather for <span id="cityName"></span> </h1>
         <main>
             <div class="row row-cols-1 row-cols-md-3 mb-3 text-center">
                 <div class="col">
@@ -61,7 +61,7 @@
                             <h4 class="my-0 fw-normal">Temperatures</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$0<small class="text-muted fw-light">/mo</small>
+                            <h1 class="card-title pricing-card-title"><span id="temp2"></span><small class="text-muted fw-light"><span>&#8451;</span></small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>Temperature is <span id="temp"></span> </li>
@@ -78,13 +78,13 @@
                             <h4 class="my-0 fw-normal">Humidity Info</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$15<small class="text-muted fw-light">/mo</small>
+                            <h1 class="card-title pricing-card-title"><span id="humidity2"></span><small class="text-muted fw-light">%</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>cloud PCT is <span id="cloud_pct"></span> </li>
                                 <li>Humidity is <span id="humidity"></span></li>
                                 <li>Feels like is <span id="feels_like"></span> </li>
-                                
+
                             </ul>
                             <!-- <button type="button" class="w-100 btn btn-lg btn-primary">Get started</button> -->
                         </div>
@@ -96,7 +96,7 @@
                             <h4 class="my-0 fw-normal">Wind/Sun Info</h4>
                         </div>
                         <div class="card-body">
-                            <h1 class="card-title pricing-card-title">$29<small class="text-muted fw-light">/mo</small>
+                            <h1 class="card-title pricing-card-title"><span id="wind_speed2"></span><small class="text-muted fw-light">km/h</small>
                             </h1>
                             <ul class="list-unstyled mt-3 mb-4">
                                 <li>wind speed is <span id="wind_speed"></span></li>
