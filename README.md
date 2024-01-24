@@ -1,1 +1,1 @@
-[Link text Here](https://malviya-weather-app.netlify.app/)
+[Weather app link](https://malviya-weather-app.netlify.app/)
